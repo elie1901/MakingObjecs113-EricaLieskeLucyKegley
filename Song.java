@@ -21,7 +21,7 @@ public class Song
         this.price = price;
         this.rating = rating;
         totalCost = price + totalCost;
-        numSongs = 1 + numSongs;
+        numSongs = 3 + numSongs;
         totalRatings = rating + totalRatings;
         averageCost = totalCost/numSongs;
     }

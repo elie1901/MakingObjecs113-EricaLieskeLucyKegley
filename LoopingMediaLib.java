@@ -1,16 +1,21 @@
-
-
 public class LoopingMediaLib
 {
-  public static void main()
+  public static void main(String args[])
+  
+  
   {
-      for (int i = 
-      System.out.printIn(MediaFile.readString());
+      for (int i = 4; i > 0; i--);
       {
+          System.out.println();
+         
+        }
+        
+    }
+    
+}
       
     
       
       
       
-   }
-}
+

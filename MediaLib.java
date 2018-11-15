@@ -11,9 +11,11 @@ public class MediaLib
     {
         
         System.out.println("Welcome to your Media Library");
-        Song song1 = new Song();
         Song song2 = new Song ("Firefly", 1.29, 10);
         Song song3 = new Song ("Dynamite", 1.29, 8);
+        Song song4 = new Song ("Let It Be", 1.29, 6);
+        
+
         
         System.out.println(song2.getTitle());
         System.out.println(song2.getRating());
@@ -21,11 +23,19 @@ public class MediaLib
         System.out.println(song2.getnumSongs());
         System.out.println(song2.getAverageCost());
 
+
         System.out.println(song3.getTitle());
         System.out.println(song3.getRating());
         System.out.println(song3.getPrice());
         System.out.println(song3.getnumSongs());
         System.out.println(song3.getAverageCost());
+
+        System.out.println(song4.getTitle());
+        System.out.println(song4.getRating());
+        System.out.println(song4.getPrice());
+        System.out.println(song4.getnumSongs());
+        System.out.println(song4.getAverageCost());
+       
 
         
         String t = song2.getTitle();
@@ -52,8 +62,9 @@ public class MediaLib
             System.out.println("Testing Result:");
             System.out.println(testResult);
             
-
+        
         
     }
     
+        
 }
